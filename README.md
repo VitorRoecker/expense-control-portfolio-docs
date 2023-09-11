@@ -49,27 +49,27 @@ To keep the Personal Finance Management App operational, the project uses AWS RD
 
 
 ## Trade-offs ⚖️
-1. Portability 📱
+### 1. Portability 📱
 The Personal Finance Management App is primarily a web-based application optimized for desktop use, potentially limiting its accessibility on mobile devices or offline scenarios.
 
 Consideration: While being web-based provides a robust interface for complex financial tasks, users who are more mobile-centric may find it less convenient.
 
-2. Functionality 🛠️
+### 2. Functionality 🛠️
 The app offers a comprehensive range of features, including expense tracking, income monitoring, and financial projections.
 
 Consideration: While an extensive feature set makes the application versatile, it could also increase its complexity, potentially confusing users who are looking for a simplified experience.
 
-3. Usability 🖱️
+### 3. Usability 🖱️
 The design, done in React and TypeScript with Tailwind CSS, aims to offer an intuitive and visually pleasing experience but may not cater to all user preferences.
 
 Consideration: High usability standards are essential for user retention, but aesthetic and navigational choices might not please everyone.
 
-4. Efficiency ⏱️
+### 4. Efficiency ⏱️
 Given the complex calculations and data fetching from the C# and SQL Server backend, there may be instances where the application experiences slight delays in responsiveness.
 
 Consideration: Efficiency is crucial for a smooth user experience. However, optimizing for speed might necessitate compromises in the level of detail or the types of features offered.
 
-5. Maintainability 🛠️
+### 5. Maintainability 🛠️
 The backend in C# and SQL Server, along with the frontend in React and TypeScript, requires ongoing maintenance for security, bug fixes, and new features, which can be resource-intensive.
 
 Consideration: Maintainability ensures the application's longevity and security but may divert resources from new feature development or other aspects of the project.
