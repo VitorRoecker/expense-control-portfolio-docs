@@ -74,6 +74,15 @@ The backend in C# and SQL Server, along with the frontend in React and TypeScrip
 
 Consideration: Maintainability ensures the application's longevity and security but may divert resources from new feature development or other aspects of the project.
 
+## C4 Model 🏗️📊
+You can find the C4 Model by [clicking here!](/docs/C4Model/c4-models.md)
+
+## Use Case 📑🎯
+You can find the use case by [clicking here!](/docs/Requirements/requirements.md)
+
+## Requirements 📋✅
+You can find the requirements by [clicking here!](/docs/Requirements/requirements.md)
+
 ## Tech Stack 💻
 
 **Front-end:** React, TailwindCSS
