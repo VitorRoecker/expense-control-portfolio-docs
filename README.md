@@ -76,7 +76,7 @@
 
 ## 📚 Quick Links
 > - 🏗️ [C4 Model](/docs/C4Model/c4-models.md)
-> - 🎯 [Use Case](/docs/Requirements/requirements.md)
+> - 🎯 [Use Case](/docs/UseCases/use-cases.md)
 > - ✅ [Requirements](/docs/Requirements/requirements.md)
 
 ## 💻 Tech Stack
