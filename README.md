@@ -90,7 +90,7 @@
 > - **Frontend: [Frontend Repository URL](https://github.com/VitorRoecker/expense-control-portfolio-frontend)**
 
 ## 📞 Contact
-> - For any questions or concerns, please contact Vitor Adriel Roecker at vitoradrielroecker@gmail.com.
+> - For any questions or concerns, please contact **Vitor Adriel Roecker** at vitoradrielroecker@gmail.com .
 
 ##
 Thank you for considering or using this project! Feel free to star ⭐ the repository if you find it helpful!
