@@ -1,4 +1,4 @@
-## Functional Requirements
+## ✅ Functional Requirements
 
 **🔒👤 1. User Authentication**
   > - Users should be able to register using an email, name, and password.
