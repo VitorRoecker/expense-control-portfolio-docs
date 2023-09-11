@@ -5,15 +5,15 @@ This project aims to develop a user-friendly personal finance management applica
 
 ## Features 🛠️
 
-**1. User Registration and Authentication 🔒**
+### **1. User Registration and Authentication 🔒**
   - Allows users to sign up and authenticate using a valid email and secure password.
-**2. Email Confirmation 📧**
+### **2. Email Confirmation 📧**
   - Validates the provided email address through an email confirmation system.
-**3. Expense and Earnings Logging 💰**
+### **3. Expense and Earnings Logging 💰**
   - Enables users to log and categorize their monthly expenses and earnings.
-**4. Financial Dashboard 📊**
+### **4. Financial Dashboard 📊**
   - Offers a comprehensive overview of the user's financial situation through a dashboard with consolidated information, charts, and tables.
-**5. Fixed Expense Notifications 📅**
+### **5. Fixed Expense Notifications 📅**
   - Sends automatic notifications to users at the beginning of each month, reminding them of their impending fixed expenses.
 
 ## Scope 🎯
