@@ -13,7 +13,7 @@
 **🗓️🔔 4. Notifications**
   > - Users should receive monthly notifications regarding their fixed expenses.
 
-## Non-Functional Requirements
+## 🛡️ Non-Functional Requirements
 
 **🚀📈 1. Performance**
   > - The application should be able to handle multiple simultaneous requests.
