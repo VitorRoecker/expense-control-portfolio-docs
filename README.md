@@ -43,39 +43,36 @@ The CI/CD pipeline for the backend is managed through Heroku and GitHub, with au
 Monitoring and observability are handled through DataDog, which provides real-time insights into the application's performance and health.
 
 ## Restrictions 🚫
+The app does not support automatic synchronization of financial data with any digital banks. This means you will need to manually input all your transactions, including income and expenses, into the app to make use of its financial management features.
+
 To keep the Personal Finance Management App operational, the project uses AWS RDS for database storage. Costs may vary depending on the volume of requests and data storage needs each month. It's crucial to budget for AWS RDS costs to ensure the application remains available and performs optimally.
 
 
 ## Trade-offs ⚖️
 1. Portability 📱
-Trade-off: The Personal Finance Management App is primarily a web-based application optimized for desktop use, potentially limiting its accessibility on mobile devices or offline scenarios.
+The Personal Finance Management App is primarily a web-based application optimized for desktop use, potentially limiting its accessibility on mobile devices or offline scenarios.
 
 Consideration: While being web-based provides a robust interface for complex financial tasks, users who are more mobile-centric may find it less convenient.
 
 2. Functionality 🛠️
-Trade-off: The app offers a comprehensive range of features, including expense tracking, income monitoring, and financial projections.
+The app offers a comprehensive range of features, including expense tracking, income monitoring, and financial projections.
 
 Consideration: While an extensive feature set makes the application versatile, it could also increase its complexity, potentially confusing users who are looking for a simplified experience.
 
 3. Usability 🖱️
-Trade-off: The design, done in React and TypeScript with Tailwind CSS, aims to offer an intuitive and visually pleasing experience but may not cater to all user preferences.
+The design, done in React and TypeScript with Tailwind CSS, aims to offer an intuitive and visually pleasing experience but may not cater to all user preferences.
 
 Consideration: High usability standards are essential for user retention, but aesthetic and navigational choices might not please everyone.
 
 4. Efficiency ⏱️
-Trade-off: Given the complex calculations and data fetching from the C# and SQL Server backend, there may be instances where the application experiences slight delays in responsiveness.
+Given the complex calculations and data fetching from the C# and SQL Server backend, there may be instances where the application experiences slight delays in responsiveness.
 
 Consideration: Efficiency is crucial for a smooth user experience. However, optimizing for speed might necessitate compromises in the level of detail or the types of features offered.
 
 5. Maintainability 🛠️
-Trade-off: The backend in C# and SQL Server, along with the frontend in React and TypeScript, requires ongoing maintenance for security, bug fixes, and new features, which can be resource-intensive.
+The backend in C# and SQL Server, along with the frontend in React and TypeScript, requires ongoing maintenance for security, bug fixes, and new features, which can be resource-intensive.
 
 Consideration: Maintainability ensures the application's longevity and security but may divert resources from new feature development or other aspects of the project.
-
-6. Cost 💵
-Trade-off: Using AWS RDS for database storage comes with associated costs that vary depending on the usage volume.
-
-Consideration: While AWS RDS provides a scalable and robust database solution, the variable costs must be considered for the app’s long-term sustainability.
 
 ## Tech Stack 💻
 
