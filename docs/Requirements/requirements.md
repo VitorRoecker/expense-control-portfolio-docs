@@ -25,8 +25,8 @@
   > - O serviço deve estar disponível 99,9% do tempo.
 
 **💻🛠️ 5. Tecnologia**
-  > - Front-end: React and TailwindCSS
-  > - Back-end: C# with Entity Framework
+  > - Front-end: React, TailwindCSS e Ant Design
+  > - Back-end: C# com Entity Framework
   > - Database: SQLServer
   > - Hosts: AWS e Vercel
   > - Quality: Codacy
