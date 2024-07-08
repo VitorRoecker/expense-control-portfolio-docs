@@ -1,37 +1,36 @@
-## ✅ Functional Requirements
+## ✅ Requisitos Funcionais
 
-**🔒👤 1. User Authentication**
-  > - Users should be able to register using an email, name, and password.
-  > - An email confirmation should be sent upon registration.
+**🔒👤 1. Autenticação de Usuário**
+  > - Os usuários devem poder se registrar usando CPF, e-mail, nome e senha.
 
 **🚪🔑 2. Login**
-  > - Users should be able to log in using their email and password.
+  > - Os usuários devem poder fazer login usando seu CPF e senha.
 
-**💵📊 3. Finance Management**
-  > - Users should be able to add, edit, and remove records of monthly expenses and earnings.
+**💵📊 3. Gestão Financeira**
+  > - Os usuários devem poder adicionar, editar e remover registros de despesas e ganhos mensais.
 
-**🗓️🔔 4. Notifications**
-  > - Users should receive monthly notifications regarding their fixed expenses.
-
-## 🛡️ Non-Functional Requirements
+## 🛡️ Requisitos Não Funcionais
 
 **🚀📈 1. Performance**
-  > - The application should be able to handle multiple simultaneous requests.
+  > - O aplicativo deve ser capaz de lidar com múltiplas requisições simultâneas.
 
-**🛡️🔐 2. Security**
-  > - All information should be stored securely.
-  > - User passwords should be encrypted before being stored.
+**🛡️🔐 2. Segurança**
+  > - Todas as informações devem ser armazenadas de forma segura.
+  > - As senhas dos usuários devem ser criptografadas antes de serem armazenadas.
 
-**📏🆙 3. Scalability**
-  > - The application should be scalable to accommodate an increase in the number of users.
+**📏🆙 3. Escalabilidade**
+  > - O aplicativo deve ser escalável para acomodar um aumento no número de usuários.
 
-**🕒✔️ 4. Availability**
-  > - The service should be available 99.9% of the time.
+**🕒✔️ 4. Disponibilidade**
+  > - O serviço deve estar disponível 99,9% do tempo.
 
-**💻🛠️ 5. Technology**
+**💻🛠️ 5. Tecnologia**
   > - Front-end: React and TailwindCSS
   > - Back-end: C# with Entity Framework
   > - Database: SQLServer
+  > - Hosts: AWS e Vercel
+  > - Quality: Codacy
+  > - Security: CodeQL
 
 **🔄🌟 6. CI/CD**
-  > - Implementation of Continuous Integration and Continuous Deployment (CI/CD).
+  > - Implementação de Integração Contínua e Implantação Contínua (CI/CD).
