@@ -21,7 +21,7 @@
 > - O backend processa os dados coletados dos usuários. Ele valida a entrada, e salva em um banco relacional todas as informações solicitadas.
 
 #### 🎨 3. Design de Interface
-> - O frontend utiliza React, TypeScript e Tailwind CSS para implementar este design.
+> - O frontend utiliza React, TypeScript, Tailwind CSS e Ant Design para implementar este design.
 
 #### 👨‍💻 4. Desenvolvimento
 > - O backend é alimentado por C# com SQL Server para persistência de dados, oferecendo gerenciamento de dados robusto. A API e o SQL são hospedados pela AWS.
