@@ -1,80 +1,75 @@
-<h1 align="center">🏦 Personal Finance Management App</h1>
+<h1 align="center">🏦 Aplicativo de Gestão de Finanças Pessoais</h1>
 
-## 📝 Project Overview
-> This project aims to develop a user-friendly personal finance management application that enables users to have effective control over their monthly expenses and earnings. The application intends to be simple yet robust, offering features such as user registration via email, detailed financial summaries, and automatic notifications for fixed monthly expenses.
+## 📝 Visão Geral do Projeto
+> Este projeto visa desenvolver um aplicativo de gestão de finanças pessoais amigável que permite aos usuários ter um controle sobre suas despesas e ganhos mensais. O aplicativo pretende ser simples, mas robusto, oferecendo recursos como registro de usuário e resumos financeiros.
+## 🛠️ Funcionalidades
 
-## 🛠️ Features
+#### **🔒 1. Registro e Autenticação de Usuário**
+>  - Permite aos usuários se registrarem e se autenticarem usando o seu CPF e uma senha segura.
+#### **💰 3. Registro de Despesas e Ganhos**
+>  - Permite aos usuários registrar e categorizar suas despesas e ganhos mensais.
+#### **📊 4. Painel Financeiro**
+>  - Oferece uma visão abrangente da situação financeira do usuário através de um painel com informações consolidadas, gráficos e tabelas.
 
-#### **🔒 1. User Registration and Authentication**
->  - Allows users to sign up and authenticate using a valid email and secure password.
-#### **📧 2. Email Confirmation**
->  - Validates the provided email address through an email confirmation system.
-#### **💰 3. Expense and Earnings Logging**
->  - Enables users to log and categorize their monthly expenses and earnings.
-#### **📊 4. Financial Dashboard**
->  - Offers a comprehensive overview of the user's financial situation through a dashboard with consolidated information, charts, and tables.
-#### **📅 5. Fixed Expense Notifications**
->  - Sends automatic notifications to users at the beginning of each month, reminding them of their impending fixed expenses.
+## 🎯 Escopo
 
-## 🎯 Scope
+#### 📊 1.  Coleta e Uso de Dados de Aplicações Externas
 
-#### 📊 1.  Data Collection and Usage from External Applications
+> - Dados do usuário, incluindo e-mail, nome e CPF são coletados durante o processo de registro e login. A autenticação é gerenciada via inscrição e login baseados em seu CPF.
 
-> - User data, including email, name is collected during the registration and login process. Authentication is managed via email-based sign-up and login.
+#### 🔍 2. Processamento e Análise
+> - O backend processa os dados coletados dos usuários. Ele valida a entrada, e salva em um banco relacional todas as informações solicitadas.
 
-#### 🔍 2. Pre-processing and Analysis
-> - The backend developed in C# and SQL Server processes the data collected from the users. It validates the input, performs necessary calculations for financial summaries, and returns only the necessary data to the frontend.
+#### 🎨 3. Design de Interface
+> - O frontend utiliza React, TypeScript e Tailwind CSS para implementar este design.
 
-#### 🎨 3. Interface Design
-> - The UI/UX design has been carefully crafted using Figma, adhering to best practices in user experience and interface design. The frontend utilizes React, TypeScript, and Tailwind CSS to implement this design.
+#### 👨‍💻 4. Desenvolvimento
+> - O backend é alimentado por C# com SQL Server para persistência de dados, oferecendo gerenciamento de dados robusto. A API e o SQL são hospedados pela AWS.
 
-#### 👨‍💻 4. Development
-> - The backend is powered by C# with SQL Server for data persistence, offering robust and efficient data management and calculations. The API is deployed on Heroku and the SQL on AWS RDS
+> - O frontend é desenvolvido em React e TypeScript com Tailwind CSS para estilização. Ele fornece uma interface amigável para gerenciar finanças e está implantado no Vercel.
 
-> - The frontend is developed in React and TypeScript with Tailwind CSS for styling. It provides a user-friendly interface for managing finances and is deployed on Vercel.
-
-#### 🧪 5. Quality Assurance
-> - Quality assurance is managed through the implementation of unit tests on both the backend and frontend. The backend uses xUnit for testing, while the frontend uses Jest and React Testing Library. SonarQube is also integrated to ensure code quality.
+#### 🧪 5. Garantia de Qualidade
+> - A garantia de qualidade é gerenciada através da implementação de testes unitários no backend utilizando xUnit para testes. O Codacy também é integrado para garantir a qualidade do código.
 
 #### 🔄 6. CI/CD
-> - The CI/CD pipeline for the backend is managed through Heroku and GitHub, with automated tests and deployments. The frontend uses Vercel and GitHub for continuous integration and deployment.
+> - O pipeline de CI/CD para o backend é gerenciado através do GitHub Actions, com testes e implantações automatizadas. O frontend usa Vercel e GitHub para integração e implantação contínuas.
 
-#### 👀 7. Observability
-> - Monitoring and observability are handled through DataDog, which provides real-time insights into the application's performance and health.
+#### 👀 7. Observabilidade
+> - O monitoramento e a observabilidade são gerenciados através do Cloud Watch na AWS, que fornece insights em tempo real sobre o desempenho e a saúde do aplicativo.
 
-## 🚫 Restrictions
-> - The app does not support automatic synchronization of financial data with any digital banks. This means you will need to manually input all your transactions, including income and expenses, into the app to make use of its financial management features.
+## 🚫 Restrições
+> - O aplicativo não suporta sincronização automática de dados financeiros com nenhum banco digital. Isso significa que você precisará inserir manualmente todas as suas transações, incluindo receitas e despesas, no aplicativo para usar seus recursos de gestão financeira.
 
-> - To keep the Personal Finance Management App operational, the project uses AWS RDS for database storage. Costs may vary depending on the volume of requests and data storage needs each month. It's crucial to budget for AWS RDS costs to ensure the application remains available and performs optimally.
+> - Para manter o Aplicativo de Gestão de Finanças Pessoais operacional, o projeto usa AWS RDS para armazenamento de banco de dados. Os custos podem variar dependendo do volume de solicitações e das necessidades de armazenamento de dados a cada mês. É crucial orçar os custos do AWS RDS para garantir que o aplicativo permaneça disponível e opere de forma otimizada.
 
 
 ## ⚖️ Trade-offs
-### 📱 1. Portability
-> - The Personal Finance Management App is primarily a web-based application optimized for desktop use, potentially limiting its accessibility on mobile devices or offline scenarios.
+### 📱 1. Portabilidade
+> - O Aplicativo de Gestão de Finanças Pessoais é principalmente uma aplicação web otimizada para uso em desktop, potencialmente limitando sua acessibilidade em dispositivos móveis ou em cenários offline.
 
-> - Consideration: While being web-based provides a robust interface for complex financial tasks, users who are more mobile-centric may find it less convenient.
+> - Consideração: Embora ser baseado na web forneça uma interface robusta para tarefas financeiras complexas, os usuários que são mais centrados em dispositivos móveis podem achar menos conveniente.
 
-### 🛠️ 2. Functionality
-> - The app offers a comprehensive range of features, including expense tracking, income monitoring, and financial projections.
+### 🛠️ 2. Funcionalidade
+> - O aplicativo oferece uma cadastro de suas despesas e faturamentos e um grafico sobre suas movimentações.
 
-> - Consideration: While an extensive feature set makes the application versatile, it could also increase its complexity, potentially confusing users who are looking for a simplified experience.
+> - Consideração: Embora um conjunto extenso de recursos torne o aplicativo versátil, ele também pode aumentar sua complexidade, potencialmente confundindo os usuários que procuram uma experiência simplificada.
 
-### 🖱️ 3. Usability
-> - The design, done in React and TypeScript with Tailwind CSS, aims to offer an intuitive and visually pleasing experience but may not cater to all user preferences.
+### 🖱️ 3. Usabilidade
+> - O design, feito em React e TypeScript com Tailwind CSS, visa oferecer uma experiência intuitiva e visualmente agradável, mas pode não atender a todas as preferências dos usuários.
 
-> - Consideration: High usability standards are essential for user retention, but aesthetic and navigational choices might not please everyone.
+> - Consideração: Padrões elevados de usabilidade são essenciais para a retenção de usuários, mas escolhas estéticas e de navegação podem não agradar a todos.
 
-### ⏱️ 4. Efficiency
-> - Given the complex calculations and data fetching from the C# and SQL Server backend, there may be instances where the application experiences slight delays in responsiveness.
+### ⏱️ 4. Eficiência
+> - Como a API esta sendo hosteada em uma Lambda da AWS, temos um pequeno atraso na primeira requisição relizada, devido ao cold start, porém logo após este periodo seu desempenho deve melhorar.
 
-> - Consideration: Efficiency is crucial for a smooth user experience. However, optimizing for speed might necessitate compromises in the level of detail or the types of features offered.
+> - Consideração : Ao optar entre um ECS e uma Lambda na aws, acabei optando pela lambda por causa de Custo, uma vez em que a Lambda irá gerar custos pelo tempo de execução. 
 
-### 🛠️ 5. Maintainability
-> - The backend in C# and SQL Server, along with the frontend in React and TypeScript, requires ongoing maintenance for security, bug fixes, and new features, which can be resource-intensive.
+### 🛠️ 5. Manutenibilidade
+> - O backend em C# e SQL Server, juntamente com o frontend em React e TypeScript, requer manutenção contínua para segurança, correções de bugs e novos recursos, o que pode ser intensivo em recursos.
 
-> - Consideration: Maintainability ensures the application's longevity and security but may divert resources from new feature development or other aspects of the project.
+> - Consideração: A manutenibilidade garante a longevidade e a segurança do aplicativo, mas pode desviar recursos do desenvolvimento de novos recursos ou outros aspectos do projeto.
 
-## 📚 Quick Links
+## 📚 Links Rápidos
 > - 🏗️ [C4 Model](/docs/C4Model/c4-models.md)
 > - 🎯 [Use Case](/docs/UseCases/use-cases.md)
 > - ✅ [Requirements](/docs/Requirements/requirements.md)
@@ -83,14 +78,9 @@
 > - **Front-end:** React, TailwindCSS
 > - **Back-end:** .NET Core 6.0
 > - **Database:** SQLServer
-> - **Other Tools:** AWS RDS
+> - **Quality:** Codacy
+> - **Other Tools:** AWS RDS, AWS Lambda, Vercel, AWS Cloud Watch
 
 ## 🌐 Repositories URLs
 > - **Backend: [Backend Repository URL](https://github.com/VitorRoecker/expense-control-portfolio-backend)**
 > - **Frontend: [Frontend Repository URL](https://github.com/VitorRoecker/expense-control-portfolio-frontend)**
-
-## 📞 Contact
-> - For any questions or concerns, please contact **Vitor Adriel Roecker** at vitoradrielroecker@gmail.com .
-
-##
-Thank you for considering or using this project! Feel free to star ⭐ the repository if you find it helpful!
