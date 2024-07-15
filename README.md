@@ -70,9 +70,10 @@
 > - Consideração: A manutenibilidade garante a longevidade e a segurança do aplicativo, mas pode desviar recursos do desenvolvimento de novos recursos ou outros aspectos do projeto.
 
 ## 📚 Links Rápidos
-> - 🏗️ [C4 Model](/docs/C4Model/c4-models.md)
-> - 🎯 [Use Case](/docs/UseCases/use-cases.md)
-> - ✅ [Requirements](/docs/Requirements/requirements.md)
+> - [C4 Model](/docs/C4Model/c4-models.md)
+> - [Use Case](/docs/UseCases/use-cases.md)
+> - [Requirements](/docs/Requirements/requirements.md)
+> - [Diagrama Deploy](/docs/Diagram/deploy.md)
 
 ## 💻 Tech Stack
 > - **Front-end:** React, TailwindCSS
