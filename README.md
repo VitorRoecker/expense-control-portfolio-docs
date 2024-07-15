@@ -74,6 +74,7 @@
 > - [Use Case](/docs/UseCases/use-cases.md)
 > - [Requirements](/docs/Requirements/requirements.md)
 > - [Diagrama Deploy](/docs/Diagram/deploy.md)
+> - [Codacy Link](https://app.codacy.com/gh/VitorRoecker/expense-control-portfolio-backend/dashboard)
 
 ## 💻 Tech Stack
 > - **Front-end:** React, TailwindCSS
