@@ -218,7 +218,7 @@ Regras de Exceção:
 #### UML
 ![UML8](https://github.com/user-attachments/assets/a5bd8c9d-e724-4585-a1b7-610b125f8f64)
 
-Caso de Uso 9: Deletar Categoria de Gasto ou de Renda
+## Caso de Uso 9: Deletar Categoria de Gasto ou de Renda
 Nome: Deletar Categoria de Gasto ou de Renda
 
 Atores: Usuário
